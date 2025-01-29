@@ -45,7 +45,7 @@ let x = setInterval(  function updateTimer(){
 
     if(distancePending < 0){
         clearInterval(x);
-        document.getElementById("countdown").innerHTML = "HAPPY BIRTHDAY🎉";
+        document.getElementById("countdown").innerHTML = "TIME OVER⏳";
         document.getElementById("progress-bar").style.width = "100%";
 
     }
